@@ -4,22 +4,28 @@ from backend.app.ingestion.pdf_loader import load_pdf
 
 
 HEADING_PATTERN = re.compile(
-    r"(?im)^[ \t]*(materials and methods|research design|subjects|"
+    r"(?im)^[ \t]*(materials and methods|patients and methods|"
+    r"methods|methodology|research design|subjects|"
     r"treatment protocol|clinical evaluation|results|discussion|"
     r"conclusions?|references)[ \t]*$"
 )
 
 
-def split_sections(page_text: str) -> list[tuple[str, str]]:
+def split_sections(
+    page_text: str,
+    initial_section: str = "Unlabelled",
+) -> list[tuple[str, str]]:
     headings = list(HEADING_PATTERN.finditer(page_text))
 
     if not headings:
-        return [("Unlabelled", page_text)]
+        return [(initial_section, page_text)]
 
     sections = []
 
     if page_text[:headings[0].start()].strip():
-        sections.append(("Unlabelled", page_text[:headings[0].start()]))
+        sections.append(
+            (initial_section, page_text[:headings[0].start()])
+        )
 
     for index, heading in enumerate(headings):
         end = (
@@ -27,7 +33,9 @@ def split_sections(page_text: str) -> list[tuple[str, str]]:
             if index + 1 < len(headings)
             else len(page_text)
         )
-        sections.append((heading.group(1), page_text[heading.end():end]))
+        sections.append(
+            (heading.group(1), page_text[heading.end():end])
+        )
 
     return sections
 
@@ -41,11 +49,23 @@ def chunk_pages_by_section(
         raise ValueError("Overlap must be smaller than chunk size")
 
     chunks = []
+    current_section = "Unlabelled"
+    current_source = None
 
     for page in pages:
+        # Start fresh when processing a different document.
+        if page["source"] != current_source:
+            current_section = "Unlabelled"
+            current_source = page["source"]
+
         chunk_number = 1
 
-        for heading, section_text in split_sections(page["text"]):
+        for heading, section_text in split_sections(
+            page["text"],
+            initial_section=current_section,
+        ):
+            # Remember the heading even if its text is empty.
+            current_section = heading
             text = " ".join(section_text.split())
             if not text:
                 continue

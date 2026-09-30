@@ -34,12 +34,19 @@ def answer_question(
     prompt = f"""Question:
 {question}
 
-Passages from the research paper:
+Retrieved passages:
 {context}
 
-Answer using only these passages. Describe this study's own procedure,
-not protocols mentioned from other studies. Cite each factual claim with
-its filename and page number, for example [sample.pdf, p. 2].
+Answer using only the retrieved passages.
+Describe this study's own procedure, not protocols from other studies.
+
+Citation rules:
+- Cite each factual claim using the exact CITATION supplied with
+  the passage supporting that claim.
+- PASSAGE_ID identifies a retrieved passage, not a PDF page.
+- Never use the passage number as the page number.
+- Do not invent filenames or page numbers.
+
 If the passages lack an answer, say what cannot be determined.
 Do not invent details."""
 

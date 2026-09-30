@@ -35,6 +35,9 @@ def ingest_sections(pdf_path: str) -> int:
         ))
         method_headings = {
             "materials and methods",
+            "patients and methods",
+            "methods",
+            "methodology",
             "research design",
             "subjects",
             "treatment protocol",
@@ -63,5 +66,14 @@ def ingest_sections(pdf_path: str) -> int:
 
 
 if __name__ == "__main__":
-    count = ingest_sections("data/papers/sample.pdf")
-    print(f"Indexed {count} section-aware chunks in {EXPERIMENT_COLLECTION}")
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("pdf_path", help="Path to the PDF to index")
+    args = parser.parse_args()
+
+    count = ingest_sections(args.pdf_path)
+    print(
+        f"Indexed {count} section-aware chunks "
+        f"in {EXPERIMENT_COLLECTION}"
+    )
