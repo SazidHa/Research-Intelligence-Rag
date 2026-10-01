@@ -1,0 +1,459 @@
+{
+  "method": "dense",
+  "collection": "research_papers_section_v1",
+  "top_k": 5,
+  "section_filter": null,
+  "cases": [
+    {
+      "id": "paper1_procedure",
+      "source": "sample.pdf",
+      "question": "How did the C-PDT and M-PDT treatment protocols differ?",
+      "answerable": true,
+      "expected_evidence": [
+        "Both used 10% ALA cream",
+        "C-PDT: incubation 3 hours; irradiation 144 J/cm² for 60 minutes",
+        "M-PDT: incubation 0.5 hours; irradiation 288 J/cm² for 120 minutes",
+        "Three treatments spaced two weeks apart"
+      ],
+      "evidence_pages": [
+        2
+      ],
+      "retrieved_chunks": [
+        {
+          "text": "Unlabelled\nhigher dose illumina- tion was even more effective than C‐PDT for larger cSCC tumors in animal studies.20 Based on these doubts, to better understand M‐PDT application value in facial multiple AK, our research aims to conduct a clinical study to compare the efﬁcacy and pain tolerance of M‐PDT and C‐PDT for AK.",
+          "source": "sample.pdf",
+          "page": 2,
+          "section": "Unlabelled",
+          "score": 0.80914795
+        },
+        {
+          "text": "DISCUSSION\nThe present study demonstrates that M‐PDT may be an effective, virtually painless, and convenient alternative to C‐PDT for treating facial multiple AK. The primary endpoint analysis showed that M‐PDT was signiﬁcantly higher than C‐PDT in the Grade III lesion, with a 1‐month lesion clearance rate was 72.0% in C‐PDT and 86.5% in M‐PDT. Furthermore, M‐PDT showed better pain tolerance and higher patient compliance than C‐PDT in pain. M‐PDT was preferred in patients, with all mean pain scores less than one on M‐PDT and more than four on C‐PDT. Many trials exploring painless PDT have used ALA or MAL‐PDT as C‐PDT, and the AK lesion clearance rate after one session of PDT treatment was approxi- mately 55.4%–80.7% in both groups.22–24 However, the lesion clearance rate after the ﬁrst PDT session in this study was lower than that in previous studies, which was 25.8% for C‐PDT and 42.6% for M‐PDT. It may be due to the larger proportion of Grade II/III AK lesions (the total number of Grade II and Grade III more than 80%) in this study and the higher proportion of Grade III lesions that were hypertrophic. Therefore, hypertrophic AK lesions may make treatment more difﬁcult. In the study, there was no signiﬁcant difference in the lesion clearance rate between C‐PDT and M‐PDT in the total lesion of AK 1 month after three sessions PDT. However, the lesion clearance rate of M‐PDT on Grade III lesions was more ideal than C‐PDT. As well as we observed that the lesion clearance rate of M‐PDT reached 100% clearance earlier than C‐PDT for Grade I lesions and a higher clearance rate for Grade II lesions. M‐PDT was comparable to C‐PDT in treating multiple AK on the face, similar to animal models.20 Based on a mouse model of squamous cell carcinoma treated with M‐PDT, M‐PDT produced more cumulat",
+          "source": "sample.pdf",
+          "page": 6,
+          "section": "DISCUSSION",
+          "score": 0.7979697
+        },
+        {
+          "text": "DISCUSSION\nesions. M‐PDT was comparable to C‐PDT in treating multiple AK on the face, similar to animal models.20 Based on a mouse model of squamous cell carcinoma treated with M‐PDT, M‐PDT produced more cumulative ROS than C‐PDT during treatment. In addition, M‐PDT has a more substantial inhibitory effect on the signaling FIGURE 5 The pain score during the ﬁrst PDT treatment. C‐PDT, conventional photodynamic therapy; M‐PDT, modiﬁed photodynamic therapy; VAS, visual analog scale. **p < 0.01. TABLE 3 Adverse effects. Side of C‐PDT (n = 14) Subject (n [%], mean duration) Side of M‐PDT (n = 14) Subject (n [%], mean duration) ALL AEs 14 (100) 14 (100) Related AEs 14 (100) 14 (100) Serious AEs 0 0 Erythema 14 (100), 3.8 days 14 (100), 3.8 days Pruritus 12 (86), 1.6 days 9 (64), 1.0 days Scab 14 (100), 10.8 days 14 (100), 10.8 days Skin burning sensation 0 0 Skin edema 2 (14), 1.0 days 2 (14), 1.0 days Dry 14 (100), 3.3 days 14 (100), 3.3 days Oozing 2 (14), 1.0 days 2 (14), 1.0 days Phototoxicity reaction 0 0 Scar 0 0 Hypopigmentation 0 0 Hyperpigmentation 14 (100), 8.3 weeks 14 (100), 8.3 weeks Abbreviations: AE, adverse event; C‐PDT, conventional photodynamic therapy; M‐PDT, modiﬁed photodynamic therapy. 876 | MODIFIED PAINLESS PHOTODYNAMIC THERAPY FOR FACIAL MULTIPLE ACTINIC KERATOSIS 10969101, 2023, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/lsm.23728 by Info Access & Delivery Service, Wiley Online Library on [20/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+          "source": "sample.pdf",
+          "page": 6,
+          "section": "DISCUSSION",
+          "score": 0.7905731
+        },
+        {
+          "text": "Unlabelled\nstatistically signiﬁcant (p < 0.05). One month after three treatment sessions, the lesion clearance rate of M‐PDT was comparable to that of C‐PDT (p > 0.05). There was a linear increase in the response rates and the number of treatments in both. For the Grade I lesions, the lesion clearance rate of the C‐PDT group in two treatments was 48% and 84%, and the M‐PDT group was 67.9% and 100%, respectively (p < 0.05). M‐PDT achieved a 100% lesion clearance rate earlier than C‐PDT, with M‐PDT treated twice and C‐PDT treated thrice. For the Grade II lesions, after the ﬁrst and the second PDT treatment, the M‐PDT group's clearance rate differs from the C‐PDT group (51.1% vs. 26.6%, 76.7% vs. 56.3%; p < 0.05). Moreover, As the Grade III lesion, the lesion clearance rate in the C‐PDT and M‐PDT groups were 72.0% and 86.5%, respectively, showing signiﬁcant differences (p = 0.045). The representative clinical manifestations are shown in Figure 3. Improvement in photoaging There was an improvement in photoaging skin 1 month after the third PDT treatment. The GS2A2 score was reduced to varying degrees, including the total and atrophy scores. M‐PDT also reduced discoloration (Figure 4). However, the two groups had no statistically signiﬁcant difference in photoaging improvement. Pain tolerance and safety Pain tolerance M‐PDT was almost painless during the ﬁrst PDT session, with all pain scores ranging from 0 to 2. As shown in Figure 5, the dark bar showed the pain during C‐PDT. The pain showed up once the light illuminated, reaching VAS 8 points in 3–5 min, then falling back a bit but still higher than VAS 4 points. The pain lasts during the entire illumination. Patients have to interrupt illumination to alleviate pain. The light bar showed the pain during M‐PDT. The pain showed up usua",
+          "source": "sample.pdf",
+          "page": 4,
+          "section": "Unlabelled",
+          "score": 0.7858036
+        },
+        {
+          "text": "Unlabelled\nedema, dryness, and so forth. Erythema, scab, dryness, and pigmentation were observed on both sides of C‐PDT and M‐PDT, and the duration was the same on both sides. Pruritus occurred in 83% of the C‐PDT side, compared with 67% of the M‐PDT side, and the C‐PDT side lasted longer than the M‐PDT side. Two persons occurred for skin edema on both the C‐PDT and the M‐PDT sides. No patients in either group experienced the skin‐burning sensation, phototoxicity reaction, scar, hypopigmentation, or other signiﬁcant adverse reactions (Table 3).",
+          "source": "sample.pdf",
+          "page": 6,
+          "section": "Unlabelled",
+          "score": 0.7775798
+        }
+      ],
+      "review": {
+        "evidence_coverage": "missing",
+        "first_relevant_rank": null,
+        "notes": "Requested protocol details absent from top five."
+      }
+    },
+    {
+      "id": "paper1_selection",
+      "source": "sample.pdf",
+      "question": "What were the patient inclusion criteria?",
+      "answerable": true,
+      "expected_evidence": [
+        "Either sex, aged over 18 years",
+        "Facial actinic keratosis, Olsen grade I–III",
+        "More than six lesions"
+      ],
+      "evidence_pages": [
+        2
+      ],
+      "retrieved_chunks": [
+        {
+          "text": "Subjects\nSubjects of either sex, aged over 18 years, with the clinical diagnosis of AK Olsen grade I–III on the face and a lesion number of more than six, were included in the study. Exclusion criteria were a history of photo- sensitive diseases, internal severe diseases, psychological and mental diseases, infectious diseases or pregnant and lactating women, and any known intolerance to ALA. Patients with clinically and/or pathologically proven tumor invasion to other organs or tissues were excluded. Patients were also excluded if they had received ALA‐ PDT, topical retinoids or 5‐ﬂuorouracil, cryotherapy, or imiquimod at least 4 weeks before the study began for AKs. During the study, using mild skin cleansers and sunscreens was permitted.",
+          "source": "sample.pdf",
+          "page": 2,
+          "section": "Subjects",
+          "score": 0.653327
+        },
+        {
+          "text": "Research design\nThis research was designed as a prospective, split‐face controlled, subject, and observer‐blinded clinical study performed from May 2020 to May 2021 in the Department of Photomedicine, Shanghai Dermatology Hospital. The study was approved by the Ethics Committee of Shanghai Dermatology Hospital (2020‐09(ke)) and registered on the Chinese Clinical Trial Registry (no. ChiCTR2000033064). Written informed consent and photo consent were obtained from all patients.",
+          "source": "sample.pdf",
+          "page": 2,
+          "section": "Research design",
+          "score": 0.5991375
+        },
+        {
+          "text": "Unlabelled\nACKNOWLEDGMENT The authors would like to thank the personnel of “Institute of Photomedicine” for their cooperation in this study. CONFLICT OF INTEREST STATEMENT The authors declare no conﬂict of interest. ORCID Peiru Wang https://orcid.org/0000-0003-0006-4269 Xiuli Wang https://orcid.org/0000-0003-0144-7480",
+          "source": "sample.pdf",
+          "page": 8,
+          "section": "Unlabelled",
+          "score": 0.5929968
+        },
+        {
+          "text": "Clinical evaluation\nAK lesions of each face were recorded using the VISIA image system and standard digital photograph system at each treatment session and follow‐up visit. Two blinded dermatologists were involved in clinical efﬁcacy and image data analysis. AK of each face was marked in charts to document their exact location. The number and grade of lesions were counted before each treatment. Lesion clearance was deﬁned as lesions no longer visible and palpable. The lesion clearance rate = [AKo – AKp]/ 872 | MODIFIED PAINLESS PHOTODYNAMIC THERAPY FOR FACIAL MULTIPLE ACTINIC KERATOSIS 10969101, 2023, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/lsm.23728 by Info Access & Delivery Service, Wiley Online Library on [20/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+          "source": "sample.pdf",
+          "page": 2,
+          "section": "Clinical evaluation",
+          "score": 0.5668628
+        },
+        {
+          "text": "Unlabelled\nAKo × 100%, where AKo is the number of lesions at baseline, and AKp is the number of lesions posttherapy. Photoaging evaluation Two dermatologists who did not participate in the clinical trial followed the criteria Global Subjective Skin Aging Assessment (GS2A2) score was performed on the normalized photos and VISIA skin images. GS2A2 includes atrophy (deep/superﬁcial wrinkles, eye bags, lax appearance, etc.), discoloration (freckles, lentigines, melasma, etc.), and malignant skin lesions.21 Pain tolerance and safety evaluation The maximal pain was evaluated at the ﬁrst PDT treatment. Pain intensity was assessed using the visual analog scale (VAS), with a score ranging from 0–3 points (mild pain), 4–6 points (moderate pain), and 7–10 points (severe pain). The adverse events such as erythema, pruritus, scab, skin burning sensation, and duration of objective symptoms were evaluated and recorded in detail during the whole treatment and follow‐up. Statistical analysis Statistical analysis was conducted using the Statistical Package for the Social Sciences version 25.0 software (IBM Corporation). Baseline characteristics were com- pared by the Wilcoxon signed rank test. A χ2 was performed for the lesion clearance rate after treatment. The linear trend χ2 test was used to analyze the trend of the lesion clearance rate with the number of treatments. The independent‐sample t‐test or Mann–Whitney U test was used to compare the pain score and GS2A2 score between groups. p < 0.05 indicated that the difference was statistically signiﬁcant.",
+          "source": "sample.pdf",
+          "page": 3,
+          "section": "Unlabelled",
+          "score": 0.5668179
+        }
+      ],
+      "review": {
+        "evidence_coverage": "complete",
+        "first_relevant_rank": 1,
+        "notes": "All expected inclusion criteria present."
+      }
+    },
+    {
+      "id": "paper1_outcomes",
+      "source": "sample.pdf",
+      "question": "What were the total lesion clearance rates one month after three sessions, and did the treatments differ significantly?",
+      "answerable": true,
+      "expected_evidence": [
+        "C-PDT: 138/155 lesions cleared, 89.0%",
+        "M-PDT: 185/202 lesions cleared, 91.6%",
+        "Between-treatment p = 0.416; no significant difference"
+      ],
+      "evidence_pages": [
+        4
+      ],
+      "retrieved_chunks": [
+        {
+          "text": "Unlabelled\n of 288 J/cm2 after applying the 10% ALA cream for 0.5 h. The primary endpoint was the lesion clearance rate at 1‐month postthree sessions of PDT. Secondary endpoints included pain scores, the incidence of adverse events during treatment, and cosmetic outcomes. Results: At 1 month following three treatments, the total lesion clearance rate was comparable between M‐PDT and C‐PDT (91.6% vs. 89.0%). While the lesion clearance rate of M‐PDT was higher than that of C‐PDT in the Grade III lesions (86.5% vs. 72.0%, respectively) (p < 0.05). M‐PDT achieved a 100% lesion clearance rate for Grade I lesions earlier than C‐PDT, with M‐PDT treated twice and C‐PDT treated thrice. Moreover, the pain score during illumination was signiﬁcantly lower for M‐PDT than for C‐PDT (p < 0.01). Regarding photoaging, the Global Subjective Skin Aging Assessment score showed that the total and atrophy scores of C‐PDT and M‐PDT were signiﬁcantly improved, and M‐PDT also reduced discoloration. There was no signiﬁcant difference in adverse reactions between C‐PDT and M‐PDT. Conclusions: M‐PDT is comparable to C‐PDT's efﬁcacy for treating facial multiple AK, resulting in much lower pain scores. K E Y W O R D S actinic keratosis, pain, photodynamic therapy INTRODUCTION Actinic keratosis (AK) is a chronic and progressive precancerous disease, of which 0.1%–16% can progress to cutaneous squamous cell carcinoma (cSCC).1,2 The risk of deterioration increases with the number of skin lesions and the prolonged course of the disease.3,4 The malignant rate of multiple AK is much higher than that of single AK, and the malignant rate increases with age.5 It is recommended that all patients with AK need treatment and follow‐up. Lasers Surg Med. 2023;55:871–879. wileyonlinelibrary.com/journal/lsm © 2023 Wiley Period",
+          "source": "sample.pdf",
+          "page": 1,
+          "section": "Unlabelled",
+          "score": 0.7851435
+        },
+        {
+          "text": "Unlabelled\nstatistically signiﬁcant (p < 0.05). One month after three treatment sessions, the lesion clearance rate of M‐PDT was comparable to that of C‐PDT (p > 0.05). There was a linear increase in the response rates and the number of treatments in both. For the Grade I lesions, the lesion clearance rate of the C‐PDT group in two treatments was 48% and 84%, and the M‐PDT group was 67.9% and 100%, respectively (p < 0.05). M‐PDT achieved a 100% lesion clearance rate earlier than C‐PDT, with M‐PDT treated twice and C‐PDT treated thrice. For the Grade II lesions, after the ﬁrst and the second PDT treatment, the M‐PDT group's clearance rate differs from the C‐PDT group (51.1% vs. 26.6%, 76.7% vs. 56.3%; p < 0.05). Moreover, As the Grade III lesion, the lesion clearance rate in the C‐PDT and M‐PDT groups were 72.0% and 86.5%, respectively, showing signiﬁcant differences (p = 0.045). The representative clinical manifestations are shown in Figure 3. Improvement in photoaging There was an improvement in photoaging skin 1 month after the third PDT treatment. The GS2A2 score was reduced to varying degrees, including the total and atrophy scores. M‐PDT also reduced discoloration (Figure 4). However, the two groups had no statistically signiﬁcant difference in photoaging improvement. Pain tolerance and safety Pain tolerance M‐PDT was almost painless during the ﬁrst PDT session, with all pain scores ranging from 0 to 2. As shown in Figure 5, the dark bar showed the pain during C‐PDT. The pain showed up once the light illuminated, reaching VAS 8 points in 3–5 min, then falling back a bit but still higher than VAS 4 points. The pain lasts during the entire illumination. Patients have to interrupt illumination to alleviate pain. The light bar showed the pain during M‐PDT. The pain showed up usua",
+          "source": "sample.pdf",
+          "page": 4,
+          "section": "Unlabelled",
+          "score": 0.7717782
+        },
+        {
+          "text": "Clinical evaluation\nAK lesions of each face were recorded using the VISIA image system and standard digital photograph system at each treatment session and follow‐up visit. Two blinded dermatologists were involved in clinical efﬁcacy and image data analysis. AK of each face was marked in charts to document their exact location. The number and grade of lesions were counted before each treatment. Lesion clearance was deﬁned as lesions no longer visible and palpable. The lesion clearance rate = [AKo – AKp]/ 872 | MODIFIED PAINLESS PHOTODYNAMIC THERAPY FOR FACIAL MULTIPLE ACTINIC KERATOSIS 10969101, 2023, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/lsm.23728 by Info Access & Delivery Service, Wiley Online Library on [20/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+          "source": "sample.pdf",
+          "page": 2,
+          "section": "Clinical evaluation",
+          "score": 0.74513596
+        },
+        {
+          "text": "DISCUSSION\nThe present study demonstrates that M‐PDT may be an effective, virtually painless, and convenient alternative to C‐PDT for treating facial multiple AK. The primary endpoint analysis showed that M‐PDT was signiﬁcantly higher than C‐PDT in the Grade III lesion, with a 1‐month lesion clearance rate was 72.0% in C‐PDT and 86.5% in M‐PDT. Furthermore, M‐PDT showed better pain tolerance and higher patient compliance than C‐PDT in pain. M‐PDT was preferred in patients, with all mean pain scores less than one on M‐PDT and more than four on C‐PDT. Many trials exploring painless PDT have used ALA or MAL‐PDT as C‐PDT, and the AK lesion clearance rate after one session of PDT treatment was approxi- mately 55.4%–80.7% in both groups.22–24 However, the lesion clearance rate after the ﬁrst PDT session in this study was lower than that in previous studies, which was 25.8% for C‐PDT and 42.6% for M‐PDT. It may be due to the larger proportion of Grade II/III AK lesions (the total number of Grade II and Grade III more than 80%) in this study and the higher proportion of Grade III lesions that were hypertrophic. Therefore, hypertrophic AK lesions may make treatment more difﬁcult. In the study, there was no signiﬁcant difference in the lesion clearance rate between C‐PDT and M‐PDT in the total lesion of AK 1 month after three sessions PDT. However, the lesion clearance rate of M‐PDT on Grade III lesions was more ideal than C‐PDT. As well as we observed that the lesion clearance rate of M‐PDT reached 100% clearance earlier than C‐PDT for Grade I lesions and a higher clearance rate for Grade II lesions. M‐PDT was comparable to C‐PDT in treating multiple AK on the face, similar to animal models.20 Based on a mouse model of squamous cell carcinoma treated with M‐PDT, M‐PDT produced more cumulat",
+          "source": "sample.pdf",
+          "page": 6,
+          "section": "DISCUSSION",
+          "score": 0.7357935
+        },
+        {
+          "text": "RESULTS\nSubject demographics A total of 14 subjects were screened, including two males and 12 females (Figure 1). The mean age was 75.75 ± 10.10 years (range: 50–91 years). As shown in Table 1, the subjects have a long duration of AK (mean 67 ± 48.30 months). Both treated sides were symmetrical and had similar lesions (202 and 155 for the M‐PDT and C‐PDT sides, respectively). Regarding AK severity, 18.8% of Grade I lesion and 44.6% of Grade II lesion were treated with C‐PDT compared with 16.1% of Grade I lesion and 51.6% of Grade II lesion treated with M‐PDT. Efﬁcacy Lesion grades and response rates are presented in Table 2 and Figure 2. Two weeks after the ﬁrst and the second PDT treatment, the lesion clearance rate of the total between the C‐PDT group and the M‐PDT group was FIGURE 1 Flow chart. ALA, 5‐aminolevulinic acid; C‐PDT, conventional photodynamic therapy; M‐PDT, modiﬁed painless photodynamic therapy. TABLE 1 Patient demographics. Patient demographics Gender (n = 14) Male 2 Female 12 Age (years) Mean ± SD 75.75 ± 10.10 Min–max 50–91 Fitzpatrick skin phototype II 1 III 10 IV 3 Duration of actinic keratosis (months) Mean ± SD 67 ± 48.30 Min–max 3–144 Abbreviations: max, maximum; min, minimum. LI ET AL. | 873 10969101, 2023, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/lsm.23728 by Info Access & Delivery Service, Wiley Online Library on [20/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+          "source": "sample.pdf",
+          "page": 3,
+          "section": "RESULTS",
+          "score": 0.7103542
+        }
+      ],
+      "review": {
+        "evidence_coverage": "partial",
+        "first_relevant_rank": 1,
+        "notes": "Rates and non-significance present; cleared counts and exact p missing."
+      }
+    },
+    {
+      "id": "paper1_unanswerable",
+      "source": "sample.pdf",
+      "question": "What were the treatment outcomes at five years?",
+      "answerable": false,
+      "expected_evidence": [
+        "Five-year outcomes cannot be established from provided evidence"
+      ],
+      "evidence_pages": [],
+      "retrieved_chunks": [
+        {
+          "text": "RESULTS\nSubject demographics A total of 14 subjects were screened, including two males and 12 females (Figure 1). The mean age was 75.75 ± 10.10 years (range: 50–91 years). As shown in Table 1, the subjects have a long duration of AK (mean 67 ± 48.30 months). Both treated sides were symmetrical and had similar lesions (202 and 155 for the M‐PDT and C‐PDT sides, respectively). Regarding AK severity, 18.8% of Grade I lesion and 44.6% of Grade II lesion were treated with C‐PDT compared with 16.1% of Grade I lesion and 51.6% of Grade II lesion treated with M‐PDT. Efﬁcacy Lesion grades and response rates are presented in Table 2 and Figure 2. Two weeks after the ﬁrst and the second PDT treatment, the lesion clearance rate of the total between the C‐PDT group and the M‐PDT group was FIGURE 1 Flow chart. ALA, 5‐aminolevulinic acid; C‐PDT, conventional photodynamic therapy; M‐PDT, modiﬁed painless photodynamic therapy. TABLE 1 Patient demographics. Patient demographics Gender (n = 14) Male 2 Female 12 Age (years) Mean ± SD 75.75 ± 10.10 Min–max 50–91 Fitzpatrick skin phototype II 1 III 10 IV 3 Duration of actinic keratosis (months) Mean ± SD 67 ± 48.30 Min–max 3–144 Abbreviations: max, maximum; min, minimum. LI ET AL. | 873 10969101, 2023, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/lsm.23728 by Info Access & Delivery Service, Wiley Online Library on [20/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+          "source": "sample.pdf",
+          "page": 3,
+          "section": "RESULTS",
+          "score": 0.63892543
+        },
+        {
+          "text": "REFERENCES\n K, Meephansan J. Development of a Global Subjective Skin Aging Assessment score from the perspective of dermatologists. BMC Res Notes. 2019;12(1):364. 22. Mordon S, Vignion‐Dewalle AS, Abi‐Rached H, Thecua E, Lecomte F, Vicentini C, et al. The conventional protocol vs. a protocol including illumination with a fabric‐based biophotonic device (the Phosistos protocol) in photodynamic therapy for actinic keratosis: a randomized, controlled, noninferiority clinical study. Brit J Dermatol. 2020;182(1):76–84. 23. Kaw U, Ilyas M, Bullock T, Rittwage L, Riha M, Vidimos A, et al. A regimen to minimize pain during blue light photodynamic therapy of actinic keratoses: bilaterally controlled, randomized trial of simultaneous versus conventional illumination. J Am Acad Dermatol. 2020;82(4):862–8. 24. Mordon S. Painless and efﬁcient ALA‐PDT and MAL‐PDT of actinic keratosis can be achieved by drastically reducing the drug‐ light interval. Dermatol Ther. 2020;33(3):e13423. 25. Mishchenko T, Balalaeva I, Gorokhova A, Vedunova M, Krysko DV. Which cell death modality wins the contest for photodynamic therapy of cancer? Cell Death Dis. 2022;13(5):455. 26. Anand S, Yasinchak A, Govande M, Shakya S, Maytin EV. Painless versus conventional photodynamic therapy for treatment of actinic keratosis: comparison of cell death and immune response in a murine model. Proc SPIE. 2019;139(5):10860. 27. Ji J, Zhang LL, Ding HL, Wang HW, Huang Z, Wang XX, et al. Comparison of 5‐aminolevulinic acid photodynamic therapy and red light for treatment of photoaging. Photodiagn Photodyn Ther. 2014;11(2):118–21. 28. Hackel D, Pﬂücke D, Neumann A, Viebahn J, Mousa S, Wischmeyer E, et al. The connection of monocytes and reactive oxygen species in pain. PLoS One. 2013;8(5):63564. 29. Zheng Z, Zhang LL, Shi L, Zhang ",
+          "source": "sample.pdf",
+          "page": 8,
+          "section": "REFERENCES",
+          "score": 0.6201446
+        },
+        {
+          "text": "Unlabelled\ne malignant rate increases with age.5 It is recommended that all patients with AK need treatment and follow‐up. Lasers Surg Med. 2023;55:871–879. wileyonlinelibrary.com/journal/lsm © 2023 Wiley Periodicals LLC. | 871 Peiru Wang and Xiuli Wang are co‐corresponding authors.",
+          "source": "sample.pdf",
+          "page": 1,
+          "section": "Unlabelled",
+          "score": 0.60899
+        },
+        {
+          "text": "Unlabelled\nAKo × 100%, where AKo is the number of lesions at baseline, and AKp is the number of lesions posttherapy. Photoaging evaluation Two dermatologists who did not participate in the clinical trial followed the criteria Global Subjective Skin Aging Assessment (GS2A2) score was performed on the normalized photos and VISIA skin images. GS2A2 includes atrophy (deep/superﬁcial wrinkles, eye bags, lax appearance, etc.), discoloration (freckles, lentigines, melasma, etc.), and malignant skin lesions.21 Pain tolerance and safety evaluation The maximal pain was evaluated at the ﬁrst PDT treatment. Pain intensity was assessed using the visual analog scale (VAS), with a score ranging from 0–3 points (mild pain), 4–6 points (moderate pain), and 7–10 points (severe pain). The adverse events such as erythema, pruritus, scab, skin burning sensation, and duration of objective symptoms were evaluated and recorded in detail during the whole treatment and follow‐up. Statistical analysis Statistical analysis was conducted using the Statistical Package for the Social Sciences version 25.0 software (IBM Corporation). Baseline characteristics were com- pared by the Wilcoxon signed rank test. A χ2 was performed for the lesion clearance rate after treatment. The linear trend χ2 test was used to analyze the trend of the lesion clearance rate with the number of treatments. The independent‐sample t‐test or Mann–Whitney U test was used to compare the pain score and GS2A2 score between groups. p < 0.05 indicated that the difference was statistically signiﬁcant.",
+          "source": "sample.pdf",
+          "page": 3,
+          "section": "Unlabelled",
+          "score": 0.6087471
+        },
+        {
+          "text": "Unlabelled\nstatistically signiﬁcant (p < 0.05). One month after three treatment sessions, the lesion clearance rate of M‐PDT was comparable to that of C‐PDT (p > 0.05). There was a linear increase in the response rates and the number of treatments in both. For the Grade I lesions, the lesion clearance rate of the C‐PDT group in two treatments was 48% and 84%, and the M‐PDT group was 67.9% and 100%, respectively (p < 0.05). M‐PDT achieved a 100% lesion clearance rate earlier than C‐PDT, with M‐PDT treated twice and C‐PDT treated thrice. For the Grade II lesions, after the ﬁrst and the second PDT treatment, the M‐PDT group's clearance rate differs from the C‐PDT group (51.1% vs. 26.6%, 76.7% vs. 56.3%; p < 0.05). Moreover, As the Grade III lesion, the lesion clearance rate in the C‐PDT and M‐PDT groups were 72.0% and 86.5%, respectively, showing signiﬁcant differences (p = 0.045). The representative clinical manifestations are shown in Figure 3. Improvement in photoaging There was an improvement in photoaging skin 1 month after the third PDT treatment. The GS2A2 score was reduced to varying degrees, including the total and atrophy scores. M‐PDT also reduced discoloration (Figure 4). However, the two groups had no statistically signiﬁcant difference in photoaging improvement. Pain tolerance and safety Pain tolerance M‐PDT was almost painless during the ﬁrst PDT session, with all pain scores ranging from 0 to 2. As shown in Figure 5, the dark bar showed the pain during C‐PDT. The pain showed up once the light illuminated, reaching VAS 8 points in 3–5 min, then falling back a bit but still higher than VAS 4 points. The pain lasts during the entire illumination. Patients have to interrupt illumination to alleviate pain. The light bar showed the pain during M‐PDT. The pain showed up usua",
+          "source": "sample.pdf",
+          "page": 4,
+          "section": "Unlabelled",
+          "score": 0.60868245
+        }
+      ],
+      "review": {
+        "evidence_coverage": "not_applicable",
+        "first_relevant_rank": null,
+        "notes": "Correctly reports insufficient evidence for five-year outcomes."
+      },
+      "generated_answer": "Based on the provided passages, the treatment outcomes at five years cannot be determined, as the text does not contain information about a five-year follow-up or outcomes at that time point.",
+      "abstention_review": "pass"
+    },
+    {
+      "id": "paper2_procedure",
+      "source": "paper2.pdf",
+      "question": "How was photodynamic therapy performed in the study?",
+      "answerable": true,
+      "expected_evidence": [
+        "Three sessions at 14-day intervals",
+        "30% urea nightly for one week before first irradiation",
+        "20% ALA with 2% DMSO under occlusion four hours before light",
+        "Green: 540 ± 15 nm, 62.5 J/cm²",
+        "Red: 630 ± 15 nm, 125 J/cm²",
+        "Both: 86 mW/cm²; three minutes irradiation, one-minute pause"
+      ],
+      "evidence_pages": [
+        2
+      ],
+      "retrieved_chunks": [
+        {
+          "text": "DISCUSSION\nction of inflammation following PDT, the type of photosensitizer, location and type of lesions, intensity of photodynamic processes depending on concentration of PpIX in the affected cells, and also dosimetry and wavelength of the used light may all play a role. Severe lesions, with a high degree of dysplasia, have probably absorbed more ALA, which is why they produce initially high levels of PpIX. Our study has shown that pain intensity during the first irradiation is usually greater than during the following 2 sessions of PDT. A decrease in painfulness, as well as reduction in adverse reactions (reported by patients) may be caused by a gradual decrease in the number of abnormal cells in AK foci, destroyed during successive irradiations, and thus a smaller accumulation of PpIX and weaker photodynamic reactions. Several studies have reported that the first few minutes of irradiation are the most painful. Ericson et al. found that the rate of photo- bleaching is high at the beginning of a session; therefore, the experience of pain seems to be associated with pho- todynamic activity (34). Our findings are supported by a study conducted by Sandberg et al. (35), who showed that patients with intense redness (dependent on degree of inflammation) experienced more pain, but that their AK lesions had a higher cure rate. Red light, commonly used in clinical practice, causes pain usually referred to as a burning sensation. Approximately 20% of ALA-PDT patients exposed to a high-output broadband red light source experienced severe pain rated at 7 or above (VAS score) (10, 35). Similar results were obtained by Clark et al. (36), who treated the patients with AK, BD and BCC lesions by using a high-output broadband light source (80–150 mW/cm2 with doses of 50–130 J/cm2). Severe pain ",
+          "source": "paper2.pdf",
+          "page": 4,
+          "section": "DISCUSSION",
+          "score": 0.7349732
+        },
+        {
+          "text": "REFERENCES\nrapy. Eur J Dermatol 2000; 5: 351–356. 23. Fink-Puches R, Hofer A, Smolle J, Kerl H. Primary clinical response and long-term follow up of solar keratoses treated with topically applied 5-aminolevulinic acid and irradiation by different wave bands of light. J Photochem Photobiol B Biol 1997; 41: 145–151. 24. Orenstein A, Kostenich G, Malik Z. The kinetics of protoporp- hyrin fluorescence during ALA-PT in human malignant skin tumors. Cancer Lett 1997; 120: 229–234. 25. Van der Veen N, De Bruijn HS, Star WM. Photobleaching during and reappearance after photodynamic therapy of topical ALA induced fluorescence in UVB-treated mouse skin. Int J Cancer 1997; 72: 110–118. 26. Kessel D, Vincente MG, Reiners Jr JJ. Initiation of apoptosis and autophagy by photodynamic therapy. Autophagy 2006; 2: 289–290. 27. Kennedy JC, Pottier KH. Photodynamic therapy with endoge- nous protoporphyrin IX: basic principles and present clinical experience. J Photochem Photobiol B Biol 1990; 6: 143–148. 28. Yu CH, Lin HP, Chen HM, Yang H, Wang YP, Chiang CP. Com- parison of clinical outcomes of oral erythroleukoplakia treated with photodynamic therapy using either light emitting diode or laser light. Lasers Surg Med 2009; 41: 628–633. 29. Kubler A, HaaseT, Rheinwald M, Barth T, Muhling J. Treatment of oral leukoplakia by topical application of 5-aminolevulinic acid. Int Oral Maxillofac Surg 1998; 27: 466–469. 30. Pottier RH, Chow YF, LaPlante JP, Truscott TG, Kennedy JC, Beiner LA. Non-invasive technique for obtaining fluorescence excitation and emission spectra in vivo. Photochem Photobiol 1986; 44: 679–687. 31. Barge J, Glanzmann T, Zellweger M, Salomon D, van den Bergh H, Wagnieres G. Correlation between photoactivable porphyrins’ fluorescence, erythema and the pain induced by PDT on normal skin u",
+          "source": "paper2.pdf",
+          "page": 5,
+          "section": "REFERENCES",
+          "score": 0.73139936
+        },
+        {
+          "text": "DISCUSSION\nThe main finding of this study is that topical PDT with the use of green light, similarly to red light, is highly effective in the treatment of middle and moderate AKs on the face and scalp. At 9 months, after 3 treatment sessions, the complete response rates were obtained in 91.67% with red light and 86.67% with green light. Similar results showing comparable efficacy of red and green light in the treatment of AKs have been presented in only one paper (12). It has been well proven in the literature that topical application of 5-ALA and its derivative methyl aminolevulinate (MAL), followed by activation with vi- sible light, results in a significant reduction in abnormal lesions (16). Due to the depth of penetration, red light is commonly used in PDT. The overall efficacy rates of AK clearance with PDT range from 75% to 92%. Buinauskaite et al. (17) irradiated patients with AKs in the face/scalp region twice with a 2-week interval, obtaining complete response at 6-month follow-up in 92.1% of lesions for 70 J/cm2 and in 84.2% of lesions for 100 J/cm2. By contrast, Radakovic-Fijan et al. (18) showed that 3 months after one red light PDT session the rate of complete remission varied between 69% and 81% depending on light doses. In the study using topical MAL-PDT, after 2 treatments with a 1-week interval, complete clearance was obtained in 91% of AKs (19). Data on recurrence rates of AK after PDT are controver- sial. Some authors report recurrence rates of 28% (between 6 and 12 months) or 30% after a median follow-up period of 13 months (20–23). The high recurrence rates may be explained by use of a single PDT treatment. Some authors believe that a single exposure, which gives approximately 70% clearance rate in clinical examination at 3 months after PDT, is sufficient. Re",
+          "source": "paper2.pdf",
+          "page": 3,
+          "section": "DISCUSSION",
+          "score": 0.7185643
+        },
+        {
+          "text": "DISCUSSION\nuch a good therapeutic effect at 9-month follow-up. The applied dose was taken from a study that treated deeper foci of Bowen’s disease (13). Studies by Kennedy & Pottier (27) confirm a clearance rate of 90–100% for AK/ Bowen’s disease when using 150–300 mW/cm2. Other studies have also shown that ALA-PDT for the treatment of dysplastic lesions in the head and neck with the use of higher doses (fluence rate of 100 mW/cm2 and fluence of 100 J/cm2) result in a higher clearance rate (28, 29). Yu et al., in treatment with a standard laser source or light- emitting diode (LED) light, obtained complete remission rates in 96% and 85%, respectively, with a mean follow-up of 32 months (16–72 months) (28). Red light is usually employed in PDT due to the depth of tissue penetration (30). 5-ALA-induced photosensitivity has a porphyrin-like spectrum with maximum excitation at 410 nm and 4 smaller peaks at 510, 540, 580 and 630 nm (30). The use of green light to treat superficial skin lesions seems particularly attractive. A wavelength of approximately 540 nm penetrates mainly the epidermis, so, in theory, it may be less painful while maintaining full photodynamic effect on the cells. Our previous studies confirm the efficacy and excellent tolerance of green light in the treatment of lichen sclerosus (15). This directed our attention to the possibility of using green light PDT in the treatment of AKs. Apart from 2 studies cited below, the literature lacks comparative studies on the use of red/ Table II. Comparison of pain experience evaluated with the numeric rating scale (NRS) between actinic keratosis (AK) groups treated with red vs. green light and between the successive irradiation sessions Areas n (%) Pain value – NRS score (points, mean ± SD) Statistical significance (between PD",
+          "source": "paper2.pdf",
+          "page": 3,
+          "section": "DISCUSSION",
+          "score": 0.7167942
+        },
+        {
+          "text": "PATIENTS AND METHODS\nPatients This study was approved by the local ethics committee (BW UMW: KB/6-2014) and conducted in accordance with the Declaration of Helsinki. All patients included in the treatment protocol were provided with detailed information about the procedures and aim of the study. Twenty patients (11 men and 9 women), age range 61–84 years (mean 76 years), with typical clinical (visibly pink-reddish and palpable) AK lesions on the head (face, scalp and forehead) were enrolled in the study. The AKs that qualified for the treatment met the criteria of grade I (mild) or grade II (moderate) according to Olsen et al. (14). Diagnoses of AK were verified histologically. Fifty-four areas of 3×3 cm were chosen, each having at least 2 AKs with a minimum diameter of 0.5 cm. In each patient, 2, 3 or 4 areas were selected according to the above criteria. The aim of this study was to compare the efficacy of PDT with red and green light using the same procedure, with the same lesion type and location. Patients were randomly assigned to 2 equipotent groups. In group I, half of the areas were irradiated with red light on the left side and the other half with green light on the right side; in group II, the order was reversed. In patients with 3 selected areas, the third area was always irradiated with green light. In total, 30 areas with AK lesions received ALA-PDT using green light and 24 areas using red light. Photodynamic therapy Each area was treated with 3 sessions of PDT at 14-day intervals regardless of the current clinical stage. For one week before the first PDT irradiation, all patients applied a cream with 30% urea once a night on selected skin areas with AKs. Four hours before exposure to light, lesional areas were treated with 20% ALA (Sigma-Aldrich®, St. Louis, Missouri,US) prepa",
+          "source": "paper2.pdf",
+          "page": 2,
+          "section": "PATIENTS AND METHODS",
+          "score": 0.7129686
+        }
+      ],
+      "review": {
+        "evidence_coverage": "partial",
+        "first_relevant_rank": 5,
+        "notes": "Schedule and preparation present; detailed irradiation evidence missing."
+      }
+    },
+    {
+      "id": "paper2_selection",
+      "source": "paper2.pdf",
+      "question": "How were patients selected for the study?",
+      "answerable": true,
+      "expected_evidence": [
+        "Head AK lesions of grade I or II",
+        "Histologically verified diagnoses",
+        "3 × 3 cm areas with at least two AKs, minimum diameter 0.5 cm",
+        "Enrolled sample: 20 patients aged 61–84"
+      ],
+      "evidence_pages": [
+        2
+      ],
+      "retrieved_chunks": [
+        {
+          "text": "PATIENTS AND METHODS\nPatients This study was approved by the local ethics committee (BW UMW: KB/6-2014) and conducted in accordance with the Declaration of Helsinki. All patients included in the treatment protocol were provided with detailed information about the procedures and aim of the study. Twenty patients (11 men and 9 women), age range 61–84 years (mean 76 years), with typical clinical (visibly pink-reddish and palpable) AK lesions on the head (face, scalp and forehead) were enrolled in the study. The AKs that qualified for the treatment met the criteria of grade I (mild) or grade II (moderate) according to Olsen et al. (14). Diagnoses of AK were verified histologically. Fifty-four areas of 3×3 cm were chosen, each having at least 2 AKs with a minimum diameter of 0.5 cm. In each patient, 2, 3 or 4 areas were selected according to the above criteria. The aim of this study was to compare the efficacy of PDT with red and green light using the same procedure, with the same lesion type and location. Patients were randomly assigned to 2 equipotent groups. In group I, half of the areas were irradiated with red light on the left side and the other half with green light on the right side; in group II, the order was reversed. In patients with 3 selected areas, the third area was always irradiated with green light. In total, 30 areas with AK lesions received ALA-PDT using green light and 24 areas using red light. Photodynamic therapy Each area was treated with 3 sessions of PDT at 14-day intervals regardless of the current clinical stage. For one week before the first PDT irradiation, all patients applied a cream with 30% urea once a night on selected skin areas with AKs. Four hours before exposure to light, lesional areas were treated with 20% ALA (Sigma-Aldrich®, St. Louis, Missouri,US) prepa",
+          "source": "paper2.pdf",
+          "page": 2,
+          "section": "PATIENTS AND METHODS",
+          "score": 0.5899441
+        },
+        {
+          "text": "PATIENTS AND METHODS\nd of treatment and follow-up. The use of any topical or systemic analgesics after PDT sessions was not recommended. Patients returned for follow-up visits at months 3, 6 and 9 after the final ALA-PDT. The areas where the lesions had subsided were all classified as complete remissions. The areas where the surfaces of lesions were reduced, or at least one lesion recurred, were classified as partial remissions. Statistical analysis The Shapiro–Wilk test was applied to analyse population distribu- tion. The Mann–Whitney U test was used to examine differences in pain experience between the groups treated with red and green light. Differences in pain experience of the groups between the successive irradiation sessions were analysed with the Wilcoxon signed-rank test. The Pearson’s χ2 test with Yates’s correction was used for differences in the treatment results between the 2 groups at the follow-ups after 6 and 9 months.",
+          "source": "paper2.pdf",
+          "page": 2,
+          "section": "PATIENTS AND METHODS",
+          "score": 0.5703342
+        },
+        {
+          "text": "DISCUSSION\nuch a good therapeutic effect at 9-month follow-up. The applied dose was taken from a study that treated deeper foci of Bowen’s disease (13). Studies by Kennedy & Pottier (27) confirm a clearance rate of 90–100% for AK/ Bowen’s disease when using 150–300 mW/cm2. Other studies have also shown that ALA-PDT for the treatment of dysplastic lesions in the head and neck with the use of higher doses (fluence rate of 100 mW/cm2 and fluence of 100 J/cm2) result in a higher clearance rate (28, 29). Yu et al., in treatment with a standard laser source or light- emitting diode (LED) light, obtained complete remission rates in 96% and 85%, respectively, with a mean follow-up of 32 months (16–72 months) (28). Red light is usually employed in PDT due to the depth of tissue penetration (30). 5-ALA-induced photosensitivity has a porphyrin-like spectrum with maximum excitation at 410 nm and 4 smaller peaks at 510, 540, 580 and 630 nm (30). The use of green light to treat superficial skin lesions seems particularly attractive. A wavelength of approximately 540 nm penetrates mainly the epidermis, so, in theory, it may be less painful while maintaining full photodynamic effect on the cells. Our previous studies confirm the efficacy and excellent tolerance of green light in the treatment of lichen sclerosus (15). This directed our attention to the possibility of using green light PDT in the treatment of AKs. Apart from 2 studies cited below, the literature lacks comparative studies on the use of red/ Table II. Comparison of pain experience evaluated with the numeric rating scale (NRS) between actinic keratosis (AK) groups treated with red vs. green light and between the successive irradiation sessions Areas n (%) Pain value – NRS score (points, mean ± SD) Statistical significance (between PD",
+          "source": "paper2.pdf",
+          "page": 3,
+          "section": "DISCUSSION",
+          "score": 0.52092695
+        },
+        {
+          "text": "REFERENCES\n1. Werner RN, Jacobs A, Rosumeck S, Erdmann R, Sporbeck B, Nast A. Methods and results report – evidence and consensus-based (S3) guidelines for the treatment of actinic keratosis – International League of Dermatological Societies in cooperation with the European Dermatology Forum. J Eur",
+          "source": "paper2.pdf",
+          "page": 4,
+          "section": "REFERENCES",
+          "score": 0.5194768
+        },
+        {
+          "text": "DISCUSSION\ne explained by use of a single PDT treatment. Some authors believe that a single exposure, which gives approximately 70% clearance rate in clinical examination at 3 months after PDT, is sufficient. Repeat treatments are typically restricted to the lesions that have shown a partial response. In our opinion, all treatments should be repeated. There- fore, we were the first to apply 3 mandatory irradiations of lesions at 2-week intervals. AKs contain cells with different spectra of molecular and genetic perturbations. If some abnormal keratinocytes are located in deeper layers of the lesions, they may not have received lethal doses of light at the time of first ir- radiation. Since the migration of keratinocytes from the basal layer to the cornified layer takes approximately one month, our repeated use of PDT at 2-week intervals allows us to destroy atypical cells in accordance with the natural cycle of keratinocyte migration through the entire epider- mis. Therefore, repeated light exposure should increase the efficacy of ALA-PDT (24, 25). This should allow us to obtain a high clearance rate with green and red light at 9-month follow-up. PDT is a process based on free-radical reactions. The oxidative damage within the abnormal cells can induce mechanisms of cytotoxicity, including induction necrosis, apoptosis, and autophagy, which under specific circum- stances may also be protective for dysplastic cells (26). The 125 J/cm2 dose used in our study in red light PDT was relatively higher than the doses commonly used in AK treatments, but this may be the reason why we obtained such a good therapeutic effect at 9-month follow-up. The applied dose was taken from a study that treated deeper foci of Bowen’s disease (13). Studies by Kennedy & Pottier (27) confirm a clearance rate",
+          "source": "paper2.pdf",
+          "page": 3,
+          "section": "DISCUSSION",
+          "score": 0.5124022
+        }
+      ],
+      "review": {
+        "evidence_coverage": "complete",
+        "first_relevant_rank": 1,
+        "notes": "All expected selection and sample details present."
+      }
+    },
+    {
+      "id": "paper2_outcomes",
+      "source": "paper2.pdf",
+      "question": "What were the main treatment outcomes at nine months?",
+      "answerable": true,
+      "expected_evidence": [
+        "Red light: 91.67% complete remission",
+        "Green light: 86.67% complete remission",
+        "Four new AK lesions in green-light areas",
+        "No statistically significant difference in treatment outcomes"
+      ],
+      "evidence_pages": [
+        2,
+        3
+      ],
+      "retrieved_chunks": [
+        {
+          "text": "DISCUSSION\nuch a good therapeutic effect at 9-month follow-up. The applied dose was taken from a study that treated deeper foci of Bowen’s disease (13). Studies by Kennedy & Pottier (27) confirm a clearance rate of 90–100% for AK/ Bowen’s disease when using 150–300 mW/cm2. Other studies have also shown that ALA-PDT for the treatment of dysplastic lesions in the head and neck with the use of higher doses (fluence rate of 100 mW/cm2 and fluence of 100 J/cm2) result in a higher clearance rate (28, 29). Yu et al., in treatment with a standard laser source or light- emitting diode (LED) light, obtained complete remission rates in 96% and 85%, respectively, with a mean follow-up of 32 months (16–72 months) (28). Red light is usually employed in PDT due to the depth of tissue penetration (30). 5-ALA-induced photosensitivity has a porphyrin-like spectrum with maximum excitation at 410 nm and 4 smaller peaks at 510, 540, 580 and 630 nm (30). The use of green light to treat superficial skin lesions seems particularly attractive. A wavelength of approximately 540 nm penetrates mainly the epidermis, so, in theory, it may be less painful while maintaining full photodynamic effect on the cells. Our previous studies confirm the efficacy and excellent tolerance of green light in the treatment of lichen sclerosus (15). This directed our attention to the possibility of using green light PDT in the treatment of AKs. Apart from 2 studies cited below, the literature lacks comparative studies on the use of red/ Table II. Comparison of pain experience evaluated with the numeric rating scale (NRS) between actinic keratosis (AK) groups treated with red vs. green light and between the successive irradiation sessions Areas n (%) Pain value – NRS score (points, mean ± SD) Statistical significance (between PD",
+          "source": "paper2.pdf",
+          "page": 3,
+          "section": "DISCUSSION",
+          "score": 0.60769796
+        },
+        {
+          "text": "PATIENTS AND METHODS\nd of treatment and follow-up. The use of any topical or systemic analgesics after PDT sessions was not recommended. Patients returned for follow-up visits at months 3, 6 and 9 after the final ALA-PDT. The areas where the lesions had subsided were all classified as complete remissions. The areas where the surfaces of lesions were reduced, or at least one lesion recurred, were classified as partial remissions. Statistical analysis The Shapiro–Wilk test was applied to analyse population distribu- tion. The Mann–Whitney U test was used to examine differences in pain experience between the groups treated with red and green light. Differences in pain experience of the groups between the successive irradiation sessions were analysed with the Wilcoxon signed-rank test. The Pearson’s χ2 test with Yates’s correction was used for differences in the treatment results between the 2 groups at the follow-ups after 6 and 9 months.",
+          "source": "paper2.pdf",
+          "page": 2,
+          "section": "PATIENTS AND METHODS",
+          "score": 0.60447234
+        },
+        {
+          "text": "RESULTS\nNone of the participants discontinued the study because of the adverse effects of PDT. Two patients were not enrol- led into the analysis because they did not attend the third PDT session at the appropriate time. At the first follow-up visit after 3 months, we observed complete remission in all treated areas in both groups (red 100% vs. green 100%). At the second follow-up after 6 months, we observed a recurrence of AK lesions in 2 areas treated with red light (partial response of 91.67%) and no recurrence in areas treated with green light (complete remission of 100%). At the last follow-up after 9 months, 4 new AKs were observed in areas treated with green light. Finally, total response to AK treatment by ALA-PDT fol- lowing 9 months of observation was 91.67% for red light and 86.67% for green light. No statistically significant differences were found between the groups (Table I). The mean ± SD pain value was greater in areas irradiated with red light compared with green light for all 3 sessions and the differences were significant (p < 0.001, mean vi- sual analogue scale (VAS) score 5.3 ± 1.61 vs. 1.87 ± 1.30 points; 4.58 ± 1.64 vs. 0.70 ± 1.09 points; and 1.92 ± 1.28 vs. 0.13 ± 0.43 points, respectively). We also observed a significant decrease in pain experience in successive PDT sessions in both groups: with red and green light (Table II). We did not evaluate the immediate and long-term side-effects. However, anamneses showed erythema and oedema persisting for several days in areas irradiated Table I. Comparison of response to the ALA-PDT treatment at follow-up visits between aktinic keratosis groups treated with red vs. green light Areas n (%) Complete remission at follow-up visits 3rd month 6th month 9th month Red light 24 (100) 24 (100) 22 (91.67) 22 (91.67) Gre",
+          "source": "paper2.pdf",
+          "page": 2,
+          "section": "RESULTS",
+          "score": 0.59765023
+        },
+        {
+          "text": "RESULTS\nbetween aktinic keratosis groups treated with red vs. green light Areas n (%) Complete remission at follow-up visits 3rd month 6th month 9th month Red light 24 (100) 24 (100) 22 (91.67) 22 (91.67) Green light 30 (100) 30 (100) 30 (100) 26 (86.67) Statistical significance (red vs. green) NS NS ALA-PDT: aminolaevulinic acid-photodynamic therapy; NS: non-significant.",
+          "source": "paper2.pdf",
+          "page": 2,
+          "section": "RESULTS",
+          "score": 0.5973754
+        },
+        {
+          "text": "DISCUSSION\nThe main finding of this study is that topical PDT with the use of green light, similarly to red light, is highly effective in the treatment of middle and moderate AKs on the face and scalp. At 9 months, after 3 treatment sessions, the complete response rates were obtained in 91.67% with red light and 86.67% with green light. Similar results showing comparable efficacy of red and green light in the treatment of AKs have been presented in only one paper (12). It has been well proven in the literature that topical application of 5-ALA and its derivative methyl aminolevulinate (MAL), followed by activation with vi- sible light, results in a significant reduction in abnormal lesions (16). Due to the depth of penetration, red light is commonly used in PDT. The overall efficacy rates of AK clearance with PDT range from 75% to 92%. Buinauskaite et al. (17) irradiated patients with AKs in the face/scalp region twice with a 2-week interval, obtaining complete response at 6-month follow-up in 92.1% of lesions for 70 J/cm2 and in 84.2% of lesions for 100 J/cm2. By contrast, Radakovic-Fijan et al. (18) showed that 3 months after one red light PDT session the rate of complete remission varied between 69% and 81% depending on light doses. In the study using topical MAL-PDT, after 2 treatments with a 1-week interval, complete clearance was obtained in 91% of AKs (19). Data on recurrence rates of AK after PDT are controver- sial. Some authors report recurrence rates of 28% (between 6 and 12 months) or 30% after a median follow-up period of 13 months (20–23). The high recurrence rates may be explained by use of a single PDT treatment. Some authors believe that a single exposure, which gives approximately 70% clearance rate in clinical examination at 3 months after PDT, is sufficient. Re",
+          "source": "paper2.pdf",
+          "page": 3,
+          "section": "DISCUSSION",
+          "score": 0.5881419
+        }
+      ],
+      "review": {
+        "evidence_coverage": "complete",
+        "first_relevant_rank": 3,
+        "notes": "All expected nine-month outcome evidence present."
+      }
+    },
+    {
+      "id": "paper2_unanswerable",
+      "source": "paper2.pdf",
+      "question": "What were the treatment outcomes at five years?",
+      "answerable": false,
+      "expected_evidence": [
+        "Five-year outcomes cannot be established from provided evidence"
+      ],
+      "evidence_pages": [],
+      "retrieved_chunks": [
+        {
+          "text": "RESULTS\nNone of the participants discontinued the study because of the adverse effects of PDT. Two patients were not enrol- led into the analysis because they did not attend the third PDT session at the appropriate time. At the first follow-up visit after 3 months, we observed complete remission in all treated areas in both groups (red 100% vs. green 100%). At the second follow-up after 6 months, we observed a recurrence of AK lesions in 2 areas treated with red light (partial response of 91.67%) and no recurrence in areas treated with green light (complete remission of 100%). At the last follow-up after 9 months, 4 new AKs were observed in areas treated with green light. Finally, total response to AK treatment by ALA-PDT fol- lowing 9 months of observation was 91.67% for red light and 86.67% for green light. No statistically significant differences were found between the groups (Table I). The mean ± SD pain value was greater in areas irradiated with red light compared with green light for all 3 sessions and the differences were significant (p < 0.001, mean vi- sual analogue scale (VAS) score 5.3 ± 1.61 vs. 1.87 ± 1.30 points; 4.58 ± 1.64 vs. 0.70 ± 1.09 points; and 1.92 ± 1.28 vs. 0.13 ± 0.43 points, respectively). We also observed a significant decrease in pain experience in successive PDT sessions in both groups: with red and green light (Table II). We did not evaluate the immediate and long-term side-effects. However, anamneses showed erythema and oedema persisting for several days in areas irradiated Table I. Comparison of response to the ALA-PDT treatment at follow-up visits between aktinic keratosis groups treated with red vs. green light Areas n (%) Complete remission at follow-up visits 3rd month 6th month 9th month Red light 24 (100) 24 (100) 22 (91.67) 22 (91.67) Gre",
+          "source": "paper2.pdf",
+          "page": 2,
+          "section": "RESULTS",
+          "score": 0.6346681
+        },
+        {
+          "text": "PATIENTS AND METHODS\nd of treatment and follow-up. The use of any topical or systemic analgesics after PDT sessions was not recommended. Patients returned for follow-up visits at months 3, 6 and 9 after the final ALA-PDT. The areas where the lesions had subsided were all classified as complete remissions. The areas where the surfaces of lesions were reduced, or at least one lesion recurred, were classified as partial remissions. Statistical analysis The Shapiro–Wilk test was applied to analyse population distribu- tion. The Mann–Whitney U test was used to examine differences in pain experience between the groups treated with red and green light. Differences in pain experience of the groups between the successive irradiation sessions were analysed with the Wilcoxon signed-rank test. The Pearson’s χ2 test with Yates’s correction was used for differences in the treatment results between the 2 groups at the follow-ups after 6 and 9 months.",
+          "source": "paper2.pdf",
+          "page": 2,
+          "section": "PATIENTS AND METHODS",
+          "score": 0.63354236
+        },
+        {
+          "text": "PATIENTS AND METHODS\nPatients This study was approved by the local ethics committee (BW UMW: KB/6-2014) and conducted in accordance with the Declaration of Helsinki. All patients included in the treatment protocol were provided with detailed information about the procedures and aim of the study. Twenty patients (11 men and 9 women), age range 61–84 years (mean 76 years), with typical clinical (visibly pink-reddish and palpable) AK lesions on the head (face, scalp and forehead) were enrolled in the study. The AKs that qualified for the treatment met the criteria of grade I (mild) or grade II (moderate) according to Olsen et al. (14). Diagnoses of AK were verified histologically. Fifty-four areas of 3×3 cm were chosen, each having at least 2 AKs with a minimum diameter of 0.5 cm. In each patient, 2, 3 or 4 areas were selected according to the above criteria. The aim of this study was to compare the efficacy of PDT with red and green light using the same procedure, with the same lesion type and location. Patients were randomly assigned to 2 equipotent groups. In group I, half of the areas were irradiated with red light on the left side and the other half with green light on the right side; in group II, the order was reversed. In patients with 3 selected areas, the third area was always irradiated with green light. In total, 30 areas with AK lesions received ALA-PDT using green light and 24 areas using red light. Photodynamic therapy Each area was treated with 3 sessions of PDT at 14-day intervals regardless of the current clinical stage. For one week before the first PDT irradiation, all patients applied a cream with 30% urea once a night on selected skin areas with AKs. Four hours before exposure to light, lesional areas were treated with 20% ALA (Sigma-Aldrich®, St. Louis, Missouri,US) prepa",
+          "source": "paper2.pdf",
+          "page": 2,
+          "section": "PATIENTS AND METHODS",
+          "score": 0.63011074
+        },
+        {
+          "text": "DISCUSSION\nThe main finding of this study is that topical PDT with the use of green light, similarly to red light, is highly effective in the treatment of middle and moderate AKs on the face and scalp. At 9 months, after 3 treatment sessions, the complete response rates were obtained in 91.67% with red light and 86.67% with green light. Similar results showing comparable efficacy of red and green light in the treatment of AKs have been presented in only one paper (12). It has been well proven in the literature that topical application of 5-ALA and its derivative methyl aminolevulinate (MAL), followed by activation with vi- sible light, results in a significant reduction in abnormal lesions (16). Due to the depth of penetration, red light is commonly used in PDT. The overall efficacy rates of AK clearance with PDT range from 75% to 92%. Buinauskaite et al. (17) irradiated patients with AKs in the face/scalp region twice with a 2-week interval, obtaining complete response at 6-month follow-up in 92.1% of lesions for 70 J/cm2 and in 84.2% of lesions for 100 J/cm2. By contrast, Radakovic-Fijan et al. (18) showed that 3 months after one red light PDT session the rate of complete remission varied between 69% and 81% depending on light doses. In the study using topical MAL-PDT, after 2 treatments with a 1-week interval, complete clearance was obtained in 91% of AKs (19). Data on recurrence rates of AK after PDT are controver- sial. Some authors report recurrence rates of 28% (between 6 and 12 months) or 30% after a median follow-up period of 13 months (20–23). The high recurrence rates may be explained by use of a single PDT treatment. Some authors believe that a single exposure, which gives approximately 70% clearance rate in clinical examination at 3 months after PDT, is sufficient. Re",
+          "source": "paper2.pdf",
+          "page": 3,
+          "section": "DISCUSSION",
+          "score": 0.6248598
+        },
+        {
+          "text": "REFERENCES\nrapy. Eur J Dermatol 2000; 5: 351–356. 23. Fink-Puches R, Hofer A, Smolle J, Kerl H. Primary clinical response and long-term follow up of solar keratoses treated with topically applied 5-aminolevulinic acid and irradiation by different wave bands of light. J Photochem Photobiol B Biol 1997; 41: 145–151. 24. Orenstein A, Kostenich G, Malik Z. The kinetics of protoporp- hyrin fluorescence during ALA-PT in human malignant skin tumors. Cancer Lett 1997; 120: 229–234. 25. Van der Veen N, De Bruijn HS, Star WM. Photobleaching during and reappearance after photodynamic therapy of topical ALA induced fluorescence in UVB-treated mouse skin. Int J Cancer 1997; 72: 110–118. 26. Kessel D, Vincente MG, Reiners Jr JJ. Initiation of apoptosis and autophagy by photodynamic therapy. Autophagy 2006; 2: 289–290. 27. Kennedy JC, Pottier KH. Photodynamic therapy with endoge- nous protoporphyrin IX: basic principles and present clinical experience. J Photochem Photobiol B Biol 1990; 6: 143–148. 28. Yu CH, Lin HP, Chen HM, Yang H, Wang YP, Chiang CP. Com- parison of clinical outcomes of oral erythroleukoplakia treated with photodynamic therapy using either light emitting diode or laser light. Lasers Surg Med 2009; 41: 628–633. 29. Kubler A, HaaseT, Rheinwald M, Barth T, Muhling J. Treatment of oral leukoplakia by topical application of 5-aminolevulinic acid. Int Oral Maxillofac Surg 1998; 27: 466–469. 30. Pottier RH, Chow YF, LaPlante JP, Truscott TG, Kennedy JC, Beiner LA. Non-invasive technique for obtaining fluorescence excitation and emission spectra in vivo. Photochem Photobiol 1986; 44: 679–687. 31. Barge J, Glanzmann T, Zellweger M, Salomon D, van den Bergh H, Wagnieres G. Correlation between photoactivable porphyrins’ fluorescence, erythema and the pain induced by PDT on normal skin u",
+          "source": "paper2.pdf",
+          "page": 5,
+          "section": "REFERENCES",
+          "score": 0.62288773
+        }
+      ],
+      "review": {
+        "evidence_coverage": "not_applicable",
+        "first_relevant_rank": null,
+        "notes": "Correctly reports insufficient evidence for five-year outcomes."
+      },
+      "generated_answer": "Based on the provided passages, the study's follow-up visits were conducted at 3, 6, and 9 months after the final photodynamic therapy (ALA-PDT) [paper2.pdf, p. 2]. The provided passages do not contain information about treatment outcomes at five years.",
+      "abstention_review": "pass"
+    }
+  ]
+}
